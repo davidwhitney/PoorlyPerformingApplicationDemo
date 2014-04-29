@@ -11,12 +11,12 @@ namespace PoorlyPerformingApplicationDemo
             while (true)
             {
                 const int digits = 8000;
-                ActuallyDoIt(digits);
+                CalculateOneTime(digits);
                 Console.WriteLine("Calculated PI to " + digits + " digits. Starting again...");
             }
         }
 
-        private static void ActuallyDoIt(int digits)
+        public static void CalculateOneTime(int digits)
         {
             digits++;
 
